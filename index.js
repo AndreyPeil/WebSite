@@ -1,7 +1,7 @@
 let username;
 document.getElementById("myButton").onclick = function() {
   username = document.getElementById("myText").value;
-  document.getElementById("myOtherText").innerHTML = "Seu nome é: " + username;
+  document.getElementById("myOtherText").innerHTML = "Your name is: " + username;
 };
 
 var inputElement = document.getElementById("myText");
